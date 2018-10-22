@@ -13,7 +13,7 @@ function crawlAndCollectLinks(url) {
 	console.log("currentConnections :" , currentConnections)
 	
 	if(poolInitiated ){
-		console.log("poolInitiated")
+		console.log("poolInitiated!")
 
 		if(linksToVisit.length > 0)
 			checkIfFree()
